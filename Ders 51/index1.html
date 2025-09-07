@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @font-face {
+            font-family: pixelfont;
+            src: url(MinecraftBold-nMK1.otf);
+        }
+
+        p {
+            font-family: pixelfont;
+        }
+
+        .size {
+            border: 2px solid black;
+            width: fit-content;
+        }
+
+        .text{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .size {
+            height: fit-content;
+            padding: 2px 5px;
+        }
+
+        .size1 {
+            box-sizing: border-box;
+            height: fit-content;
+            width: fit-content;
+            padding: 2px 5px;
+            color: white;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="font-family: pixelfont;">Buttons</h1>
+
+        <div class="sizes">
+            <p>sizes</p>
+            <div class="text">
+                <p class="size" style="font-size: small;">small</p>
+                <p class="size">normal</p>
+                <p class="size" style="font-size: medium;">medium</p>
+                <p class="size" style="font-size: x-large;">large</p>
+            </div>
+        </div>
+
+        <div class="colors">
+            <p>colors</p>
+            <div class="text">
+                <p class="size1" style="background-color: greenyellow;">primary</p>
+                <p class="size1" style="background-color: skyblue;">success</p>
+                <p class="size1" style="background-color: yellow;">warning</p>
+                <p class="size1" style="background-color: red">error</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

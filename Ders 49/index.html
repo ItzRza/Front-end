@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        div {
+            border: 1px solid black;
+            margin: 3px;
+        }
+
+        .container {
+            margin: auto;
+            width: 120vh;
+        }
+
+        .main-sidebar {
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            width: 6%;
+            margin-bottom: -25px;
+            height: 60px;
+        }
+
+        .hh1{
+            margin-bottom: -25px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            width: 78%;
+            margin-left: 20%;
+            height: fit-content;
+        }
+
+        .main-content {
+            width: 70%;
+            background-color: rgb(64, 158, 220);
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: rgb(136, 202, 136);
+        }
+
+        .footer {
+            background-color: rgb(238, 238, 238);
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Container</h1>
+    <div class="container">
+
+        <div class="header">
+            <h1 class="hh1">Header</h1>
+
+            <div class="logo">
+                <p>Logo</p>
+            </div>
+            <div class="navigation">
+                <p>Navigation</p>
+            </div>
+        </div>
+
+        <div class="main-sidebar">
+            <div class="main-content">
+                <h1>Main content</h1>
+            </div>
+            <div class="sidebar">
+                <h1>Sidebar</h1>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+
+</html>

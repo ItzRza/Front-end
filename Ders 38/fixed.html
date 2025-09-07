@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: auto;
+            padding: 10;
+        }
+
+        table {
+            border: 8px solid;
+            width: 800px;
+            height: 420px;
+        }
+
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <thead>
+                <th  colspan="2">
+                    <h1>CV</h1>
+                </th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="1">Ad</td>
+                    <td  colspan="2"><input type="text" placeholder="Ad daxil edin"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="1">Soyad</td>
+                    <td  colspan="2"><input type="text" placeholder="Soyad daxil edin"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="1">Unvan</td>
+                    <td  colspan="2"><input type="text" placeholder="Unvan daxil edin"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="1">Dogum tarixi</td>
+                    <td  colspan="2"><input type="date"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="1">Elektron unvan</td>
+                    <td  colspan="2"><input type="email" placeholder="example@gmail.com"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="1">Yas</td>
+                    <td  colspan="2"><input type="number" placeholder="Yasinizi daxil edin"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="1">Sifre</td>
+                    <td  colspan="2"><input type="password" placeholder="Sifrenizi daxil edin"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="1">Gender</td>
+                    <td  colspan="2"><input type="radio" name="gender0"> <label for="gender0">Kisi</label>
+                                    <input type="radio" name="gender1"> <label for="gender1">Qadin</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="1">Milliyet</td>
+                    <td  colspan="2"><select>
+                                        <option>Azerbaycan</option>
+                                        <option>Turkiye</option>
+                                        <option>Rus</option>
+                                       </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="1">
+                        <p>Bacariqlar</p>
+                    </td>
+                    <td colspan="2">
+                        <input name="javase" type="checkbox">
+                        <label for="javase">Java SE</label>
+                        
+                        <input name="javaee" type="checkbox">
+                        <label for="javaee">Java EE</label>
+                        
+                        <br>
+                        
+                        <input name="javfx" type="checkbox">
+                        <label for="javafx">Java FX</label>
+                        
+                        <input name="javame" type="checkbox">
+                        <label for="javame">Java ME</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" style="padding: 10px;">
+                        <input type="submit" value="Yadda saxla">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+        }
+
+        .bg1,.bg2,.bg3,.bg4 {
+            width: 160px;
+            height: 160px;
+            background-color: black;
+            opacity: 0.8;
+            position: absolute;
+            top: 10px;
+        }
+
+        .container div:hover .bg1,
+        .container div:hover .bg2,
+        .container div:hover .bg3,
+        .container div:hover .bg4 {
+            opacity: 0;
+        }
+
+        .container div:hover .img1,
+        .container div:hover .img2,
+        .container div:hover .img3,
+        .container div:hover .img4 {
+            -webkit-box-reflect: below 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pht1">
+            <img src="download (1).jpeg" class="img1">
+            <div class="bg1"></div>
+        </div>
+
+        <div class="pht2">
+            <img src="download (1).jpeg" class="img2">
+            <div class="bg2"></div>
+        </div>
+
+        <div class="pht3">
+            <img src="download (1).jpeg" class="img3">
+            <div class="bg3"></div>
+        </div>
+
+        <div class="pht4">
+            <img src="download (1).jpeg" class="img4">
+            <div class="bg4"></div>
+        </div>
+    </div>
+</body>
+
+</html>

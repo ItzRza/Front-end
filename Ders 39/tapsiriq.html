@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+            margin: 5px;
+            padding: 1.2px;
+            border-color: rgb(27, 144, 221);
+        }
+    </style>
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <legend>
+        <h1>Novell Services Login</h1>
+    </legend>
+    <form action="logged.html" method="post">
+
+        <!-- Input -->
+
+        <div id="divinput">
+            <label for="usn">Username:</label>
+            <input type="text" id="usn" name="usn" placeholder="Username" required>
+            <br>
+            <label for="psw">Password:</label>
+            <input type="password" id="psw" name="psw" placeholder="Password" required>
+            <br>
+            <label for="cityof">City of Employment:</label>
+            <input type="text" name="cityof" id="cityof" placeholder="City of Employment" required>
+            <br>
+            <label for="webserv">Web server:</label>
+            <select name="webserv" id="webserv">
+                <option value="" hidden>--Chose a server--</option>
+                <option value="">Server 1</option>
+                <option value="">Server 2</option>
+                <option value="">Server 3</option>
+                <option value="">Server 4</option>
+                <option value="">Server 5</option>
+            </select>
+            <br>
+            <label>Please specify your role:</label>
+            <input type="radio" name="role1" id="role1">
+
+            <label for="role1">Admin</label>
+            <br>
+
+            <input type="radio" name="role1" id="role2">
+            <label for="role1">Engineer</label>
+            <br>
+
+
+            <input type="radio" name="role1" id="role3">
+            <label for="role1">Manager</label>
+            <br>
+
+
+            <input type="radio" name="role1" id="role4">
+            <label for="role1">Guest</label>
+
+            <br>
+
+            <label>Single Sign-on to the following: </label>
+
+            <input type="checkbox" name="sign1" id="sign1">
+            <label for="sing1">Mail</label>
+            <br>
+
+            <input type="checkbox" name="sign2" id="sign2">
+            <label for="sing2">Payroll</label>
+            <br>
+
+
+            <input type="checkbox" name="sign3" id="sign3">
+            <label for="sing2">Self-sevice</label>
+            <br>
+
+            <br>
+
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            border: 2px solid red;
+            margin: 3px;
+            padding: 6px;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            margin: auto;
+        }
+
+        .center-div{
+            display: flex;
+            flex-direction: row;
+            height: 200px;
+        }
+
+        .menu,.advt{
+            width: 20%;
+        }
+
+        .content-area{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="website"><h1>Website</h1></div>
+
+        <div class="center-div">
+            <div class="menu">
+                <h1>Menu</h1>
+            </div>
+            <div class="content-area">
+                <h1>
+                    <h1>Content Area</h1>
+                </h1>
+            </div>
+            <div class="advt">
+                <h1>ADVT</h1>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" containerent="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial;
+            text-align: center;
+            width: 100%;
+            padding: 0;
+            margin: 0px;
+        }
+
+        div {
+            border: 1px solid black;
+        }
+
+        div > h1{
+            padding: 30px;
+        }
+
+        .center-right-picture,
+        .center-right-bottom,
+        .center {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Banner</h1>
+        </div>
+        <div>
+            <h1>Navigation links</h1>
+        </div>
+
+        <div class="center">
+            <div class="main-div">
+                <h1 style="border: none;">Main containerent</h1>
+            </div>
+            <div class="center-right">
+                <div class="center-right-picture">
+                    <div>
+                        <h1>Picture</h1>
+                    </div>
+
+                    <div>
+                        <h1>About me</h1>
+                    </div>
+                </div>
+                <div class="center-right-bottom">
+                    <h1>Recent tweets</h1>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+
+</html>

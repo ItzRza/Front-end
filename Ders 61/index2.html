@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(168, 166, 166);
+        }
+
+        .container {
+            width: fit-content;
+        }
+
+        .login,
+        .login div div {
+            float: left;
+            border-radius: 5px;
+        }
+
+        .login div {
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-right: 5px;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+
+        .login {
+            z-index: 1;
+            color: white;
+            background-color: rgb(40, 92, 188);
+            width: 400px;
+            height: 20vh;
+            margin-left: 37%;
+            margin-top: 30px;
+        }
+
+        .other {
+            z-index: -1;
+            position: relative;
+            left: 550px;
+            top: 60px;
+            width: 440px;
+            height: 70vh;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+        .loginbtn1:hover,
+        .loginbtn2:hover,
+        .loginbtn3:hover {
+            border: 1px solid white;
+        }
+
+        .login h1 {
+            margin-top: -10px;
+            margin-left: 100px;
+        }
+
+        #password,
+        #username {
+            border: none;
+            border-bottom: 1px solid gray;
+            padding: 10px;
+            width: 90%;
+        }
+        img {
+            margin-bottom: -15px;
+        }
+        #log{
+            margin-top: 30px;
+        }
+        .buttons{
+            margin-top: 20px;
+            display: flex;
+            margin-top: 50px;
+            justify-content: space-around;
+        }
+        .buttons button{
+            padding: 15px;
+            width: 100px;
+            border: none;
+            background-color: rgb(40, 112, 188);
+            border-radius: 5px;
+            color: white;
+        }
+        .buttons a{
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conatiner">
+        <div class="login">
+            <div class="login-button">
+                <h1>Login</h1>
+                <div class="loginbtn1">G</div>
+                <div class="loginbtn2">T</div>
+                <div class="loginbtn3">f</div>
+
+            </div>
+        </div>
+        <div class="other">
+            <div class="username">
+                <img src="/Ders 61/svg/user-svgrepo-com.svg" alt="" width="25px" id="user">
+                <input type="text" name="username" id="username" placeholder="Username">
+                <br><br>
+                <img src="/Ders 61/svg/lock-alt-svgrepo-com.svg" alt="" width="25px" id="lock">
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <input type="checkbox" id="log">
+            <label>Keep me logged in</label>
+            <div class="buttons">
+                <button>Log In</button>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

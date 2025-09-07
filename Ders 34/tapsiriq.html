@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        tr,
+        td,
+        th {
+            padding: 16px 12px;
+        }
+
+        table {
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="bir">
+        <thead>
+            <tr style="background-color: rgb(128, 215, 215);">
+                <th>1. Sexsi melumatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="1">Dogum yeri ve tarixi: </td>
+            </tr>
+            <tr>
+                <td colspan="1">Yasayis unvani: </td>
+            </tr>
+            <tr>
+                <td colspan="1">Vetendasligi: </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <img width="200px" height="200px" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAHBhATEBMQFhMVERIPEhIQDw8WExQYFxIWFxYSFxMYHSgsGSYlHxMXITEiJSktLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGC4dHR0tKy0tLS0tLS0tKy0tKy0rLS0tLTctKy0tLS0tLS0rLS0tLS8tKysrNystKys3LSs3K//AABEIAOEA4AMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAABAUGAgEDB//EADYQAQABAwEDCQgBAwUAAAAAAAABAgMEEQUhMSJBUWFxcpGxwRITMjSBodHhUkKC8BQjJDNi/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAdEQEBAAMAAwEBAAAAAAAAAAAAAQIRMQMhUUES/9oADAMBAAIRAxEAPwD9EAelkAAAAAAAAAAAADu3bquTyYmeyJlIp2ddqj4fGaY9XNx3SIJV/AuWLftVaadsIpLtwAdAAAAAAAAAAAAAAAAAHVFE11RERrM8IgHL74+LXkTyY3dM7o8Vnh7Kijfc3z0c0flZRGkM7n8VMVVZ2PH9dX0p/MptrBtWuFMds75+6SM7larTyIiI3PQcdZzaF+q9kTFXCJmIj1RWly8SnKp38eaY4wosvFqxa9J4c0xwltjlOIsRwFpAAAAAAAAAAAAAAAAexGs7mg2dhRjW9Z+KeM9HVCu2NZ95k6z/AExr9Z4eq9ZZ5fi8YAM1AAAADi7ai9bmKo1iXYDN52JOLd05p+GfRGafLsRkWJpn6T0TzSzMxpO/sbYZbjOzTwBbgAAAAAAAAAAAAAC42D8FfbHlK1VewY/2q+9HktGGXWk4AJdAAAAAAGYy92Vc79XnLTszm/OXO9Pm08fU5PgA1QAAAAAAAAAAAAAAuthf9FXe9IWat2F8tV3/AEhZMMutJwAS6AAAAAAMzm/OXO9Pm0zM5vzlzvT5tPH1OT4ANUAAAAAAAAAAAAAO7OnvqdeHtRr4guNhfLVd/wBIWTyKYp4PXnt3WkAHHQAAAAABmc35y53p82mVG2rVNFFMxERVNU6zEb53b9V4X2nJUgNkAAAAAAAAAAAAD2J0n7vAGsidYeo+Dd99i0z1RE9sbpSHmagAAAAAAACp29VuojvT5LZRbaue3lxH8afPf+FYdcy4rwG7MAAAAAAAAAAAAABZbFvTTfmnXdMTMR1x+vJdszhV+7y6J/8AUffd6tMxzntePABCgAAAAAHyybvuceqrojX8MzXXNyuZnjM6yutt3PZxop/lP2jf+FG18c9IyAGiQAAAAAAAAAAAAABpMDI/1GNE8/Ce1m0nByZxr8ab4nSJjpRnNxUrSAMVgAAAAIm0702cSZjjOka9pBU7Vv8AvsudOFPJj1/zqQweiTTMAdcAAAAAAAAAAAAAAH2xI9rKo79Pm+KVsyPazqO2Z8Ily8djRgPO0AAAAEDbU/8AD/uj1T1ftv5SO9HlLuPXLxRAPQzAAAAAAAAAAAAAAAAdW6PeXIjpmI8Z0aazj0WaY9mmI69I18VHsqz73LieanlT6NCy8l96XiAM1AAAADyqmK43xE9sPQGc2jYixlzEcJ5UR0a8yKt9uWN1Ncd2fRUN8buM70AU4AAAAAAAAAADu1aqu1aUxMz1LLH2RM76506qePi5cpHZNquI1ncm4+zLl3jyY6+PgubGNRjxyYiOvn8X2Z3yfFTFHw8SnEomI1mZ4zKQDNQAAAAAAAD537UX7U0zwnoVF/ZFdHwTFXVO6V2OzKxyzbK3LdVqrSqJieuHDV3LcXKdKoiY6JhX5GyKa/gn2Z6J3w0nk+p/lSCRkYdzH4xu6Y3x+kdcu0gDoAADuzaqvV6UxMytsXZMU77m+eiOH7TcpHZNquxj15FXJiZ6+aPqtMbZEU76516o3R486zppiinSIiI6Ies7naqYubduLdOlMREdEQ6BCgAAAAAAAAAAAAAAABDydnW7/NpPTTu+yYEuhn8nZlyzw5UdXHwQ2sR8nCoyOMb+mN0tJ5PqbizQnZWzK7O+nlR1cY+iC0llTpqbFimxRpTGnr2voDztAAAAAAAAAAAAAAAAAAAAAAAABW7TwPeUzVRHK4zH8v2sh2XRoAcAAAAAAAAAAAAAAAAAAAAAAAAAAH//2Q=="
+                        alt="sekil">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><br>
+
+    <table>
+        <tr style="background-color: rgb(128, 215, 215);">
+            <th colspan="4">2. Elaqe</th>
+        </tr>
+        <tr>
+            <td colspan="2">Telefonlar: </td>
+            <td rowspan="2" colspan="2">Email</td>
+        </tr>
+        <tr>
+            <td colspan="1">ev</td>
+            <td colspan="1">mobil</td>
+        </tr>
+    </table>
+</body>
+
+</html>

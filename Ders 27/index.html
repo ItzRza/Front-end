@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial;
+        }
+
+        tbody {
+            text-align: center;
+        
+        }
+        #div1 :nth-child(odd){
+            background-color: #252525;
+        }
+        
+        #div1 :nth-child(even){
+            background-color: #252525;
+        }
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        
+        th {
+            border: 2px solid black;
+            border-collapse: collapse;
+            background-color: greenyellow;
+        }
+
+        
+        .class1,tfoot{
+            border: 2px solid black;
+            background-color: rgb(193, 196, 197);
+            text-align: center;
+        }
+
+        thead {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4" style="background-color: green;">Placeholder Text</th>
+            </tr>
+
+            <tr>
+                <th rowspan="2" colspan="2">Placeholder Text</th>
+                <th colspan="2">Placeholder</th>
+
+            </tr>
+            <tr>
+                <th>Placeholder</th>
+                <th>Placeholder</th>
+            </tr>
+        </thead>
+        <tbody>
+            <div id="div1">
+            <tr>
+                <td colspan="2">asdf</td>
+                <td>asdf</td>
+                <td>asdf</td>
+            </tr>
+            <tr>
+                <td colspan="2">asdf</td>
+                <td>asdf</td>
+                <td>asdf</td>
+            </tr>
+            <tr>
+                <td colspan="2">asdf</td>
+                <td>asdf</td>
+                <td>asdf</td>
+            </tr>
+            <tr>
+                <td colspan="2">asdf</td>
+                <td>asdf</td>
+                <td>asdf</td>
+            </tr>
+        </div>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="class1" colspan="2"><b>Total</b></td>
+                <td class="class1" colspan="2">asdf</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

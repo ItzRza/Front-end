@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: Arial;
+            text-align: center;
+            font-size: 25px;
+        }
+        /* td:hello{
+            background-color: #beb8b8;
+        } */
+        .hello:hover {
+            background-color: #beb8b8;
+        }
+
+        thead {
+            color: white;
+            background-color: green;
+        }
+
+        tr,
+        td,
+        th,
+        table {
+            border: 0.7px solid gray;
+            border-left: none;
+            border-right: none;
+        }
+
+        table {
+            margin: auto;
+            overflow: hidden;
+            border-radius: 14px;
+            border-collapse: collapse;
+            box-shadow: 5px 5px 5px 5px gray;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th >Name</th>
+                <th colspan="2">Age</th>
+                <th colspan="2">City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="hello">
+                <td colspan="2">John Dee</td>
+                <td colspan="2">30</td>
+                <td colspan="2">New York</td>
+            </tr>
+
+            <tr class="hello">
+                <td colspan="2">Jane Smith</td>
+                <td colspan="2">25</td>
+                <td colspan="2">Los Angeles</td>
+            </tr>
+
+            <tr class="hello">
+                <td colspan="2">Mark Wilson</td>
+                <td colspan="2">40</td>
+                <td colspan="2">Chicago</td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+</body>
+
+</html>

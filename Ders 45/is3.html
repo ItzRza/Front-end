@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        input[type="submit"] {
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(35, 100, 198);
+            color: white;
+            cursor: pointer;
+        }
+        
+        input {
+            width: 300px;
+            height: 10px;
+            border: 1px solid gray;
+            padding: 10px;
+            border-radius: 3px;
+            padding-left: 10px;
+        }
+
+        textarea {
+            width: 300px;
+            height: 100px;
+            border-radius: 3px;
+            border: 1px solid gray;
+            padding: 5px;
+            padding-left: 10px;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+    <div>
+        <form>
+            <h1>Contact us</h1>
+            <input type="text" placeholder="Name" required>
+            <br><br>
+            <input type="email" placeholder="Email" required>
+            <br><br>
+            <textarea placeholder="Message" required></textarea>
+            <br><br>
+            <label for="teandpr">I agree to the <a href="">Terms</a> and <a href="">Privacy Policy</a></label>
+
+            <br><br>
+            <input type="submit" value="Sumbit">
+        </form>
+    </div>
+</html>

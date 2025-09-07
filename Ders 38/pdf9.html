@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>input-type-range-search</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <form>
+        <input type="range" name="age" min="10" max="20" step="5"
+            oninput="document.getElementById('result').innerHTML=this.value;">
+        <input type="search">
+        <input type="submit">
+        <p id="result"></p>
+    </form>
+</body>
+
+</html>

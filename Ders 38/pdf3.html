@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="color" id="color-input">
+    <button onabort="deyis()">Arxa fon deyis</button>
+
+    <script>
+        function deyis() {
+            var color = document.getElementById("color-input").value;
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>

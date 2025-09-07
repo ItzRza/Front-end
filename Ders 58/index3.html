@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body div{
+            width: 200px;
+            height: 200px;
+            color: white;
+            text-align: center;
+        }
+        .div1{
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            background-color: cornflowerblue;
+            z-index: -1;
+            padding: 20px;
+            box-sizing: border-box;
+            opacity: 0.9    ;
+        }
+        .black{
+            background-color: black;
+            position: relative;
+            width: 160px;
+            height: 80px;
+            z-index: 0;
+        }
+        .div2{
+            background-color: green;
+            position: absolute;
+            top: 50px;
+            left: 150px;
+            z-index: 1;
+            opacity: 0.8;
+        }
+        .div3{
+            background-color: gray;
+            position: absolute;
+            top: 150px;
+            left: 100px;
+            z-index: -2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <p>Blue</p>
+        <div class="black">
+            <p>Black</p>
+        </div>
+    </div>
+    <div class="div2">
+        <p>Green</p>
+    </div>
+    <div class="div3"></div>
+</body>
+
+</html>

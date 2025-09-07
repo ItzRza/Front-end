@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            font-weight: bold;
+            color: white;
+        }
+
+        .dheader {
+            font-size: 50px;
+            font-weight: bold;
+            color: gray;
+            padding: 10px 0px;
+        }
+
+        .container {
+            width: 65%;
+            margin: auto;
+            height: 80vh;
+            padding: 70px;
+        }
+
+        .container-products {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+
+        .divs {
+            width: 30%;
+            height: 40vh;
+        }
+
+        .header {
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        .divs-bottom,
+        .dheader {
+            background-color: white;
+            padding: 20px;
+        }
+
+        .text {
+            width: 80%;
+            height: 20px;
+            margin: 15px auto;
+            background-color: gray;
+            border-radius: 15px;
+        }
+        .inner-container-message{
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="background-color: gray;">
+        <div class="container-products">
+            <div class="divs">
+                <p class="header">Basic</p>
+                <p class="dheader">$5</p>
+                <p class="divs-bottom">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quas deserunt rem corrupti ullam
+                    qui
+                    earum aspernatur dolorem magni harum?
+                </p>
+            </div>
+
+            <div class="divs">
+                <p class="header">Pro</p>
+                <p class="dheader">$10</p>
+                <p class="divs-bottom">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quas deserunt rem corrupti ullam
+                    qui
+                    earum aspernatur dolorem magni harum?
+                </p>
+            </div>
+
+            <div class="divs">
+                <p class="header">Premium</p>
+                <p class="dheader">$20</p>
+                <p class="divs-bottom">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quas deserunt rem corrupti ullam
+                    qui
+                    earum aspernatur dolorem magni harum?
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="container-message">
+            <div style="background-color: white;" class="inner-container-message">
+                <div class="text"></div>
+                <div class="text"></div>
+                <div class="text"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

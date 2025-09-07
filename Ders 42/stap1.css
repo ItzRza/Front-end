@@ -1,0 +1,46 @@
+table,
+td,
+tr,
+th {
+    padding: 10px;
+    font-family: Arial;
+    border: 1px solid rgb(71, 63, 63);
+    border-collapse: collapse;
+}
+
+thead>tr {
+    background-color: pink;
+}
+
+tr:nth-child(even) {
+    background-color: pink;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    color: white;
+    background-color: rgb(100, 97, 97);
+}
+
+table:nth-child(odd){
+    :hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+
+    }
+}
+
+table:nth-child(even){
+    :hover {
+        background-color: rgb(255, 255, 255);
+        color: white;
+
+    }
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Telebe qeydiyyati</h1>
+
+    <form action="logged.html">
+        <label for="ad">Ad:</label>
+        <input type="text" name="ad" id="ad" placeholder="Adinizi yazin" required>
+
+        <br>
+
+        <label for="soyad">Soyad:</label>
+        <input type="text" name="soyad" id="soyad" placeholder="Soyadinizi yazin" required>
+
+        <br>
+
+        <label for="dogumtarixi">Dogum tarixi:</label>
+        <br>
+        <input type="date" name="dogumtarixi" id="dogumtarixi" required>
+
+        <br>
+
+        <label for="telefon">Telefon:</label>
+        <br>
+        <input type="tel" name="telefon" id="telefon" placeholder="055-123-45-67"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+        <br>
+
+        <label for="unvan">Unvan: </label>
+        <br>
+        <textarea name="unvan" id="unvan" placeholder="Unvani  daxil edin" required></textarea>
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Emailinizi daxil edin" required>
+
+
+        <br>
+
+        <label for="dil">Dil:</label>
+        <select name="dil" id="dil">
+            <option value="">Azerbaycanca</option>
+            <option value="">Turkce</option>
+            <option value="">Rusca</option>
+        </select>
+        <br>
+
+        <label for="sekil">Telebenin sekli:</label>
+        <input type="file" name="sekil" id="sekil">
+
+        <br>
+        <br>
+        <br>
+
+        <input type="submit" value="Gonder">
+    </form>
+</body>
+
+</html>
