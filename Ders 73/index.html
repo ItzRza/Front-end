@@ -1,21 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        button{
+            cursor: pointer;
+        }
+
+        p,a {
+            transition: 1s;
+            font-size: 32px;
+            margin-right: 20px;
+        }
+
+        a:hover {
+            transition: 1s;
+            text-decoration: underline;
+            font-size: 34px;
+            cursor: pointer;
+        }
+
+        img{
+            transition: 1s;
+            margin-right: 250px;
+        }
+
+        img:hover{
+            transition: 1s;
+            width: 130px;
+            height: 130px;
+        }
+
+        .navbar {
+            padding: 10px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            box-shadow: 10px 10px 100px black;
+            align-items: center;
+        }
+        .center,.right{
+            padding: 20px;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .right{
+            margin-left: 100px;
+        }
+
+        .main{
+            margin-top: 200px;
+            margin-left: 950px;
+        }
+
+        button{
+            font-weight: bold;
+            transition: 1s;
+            border: 2px solid chocolate;
+            background-color: transparent;
+            color: chocolate;
+            padding: 20px 28px;
+        }
+
+        #left{
+            box-sizing: border-box;
+            border: none;
+            color: orange;
+            background-color: rgba(255, 0, 0, 0.492);
+            padding: 30px;
+            margin-right: 10px;
+        }
+
+        #right{
+            box-sizing: border-box;
+            border: none;
+            color: orange;
+            background-color: rgb(0, 128, 0, 0.492);
+            padding: 30px;
+            margin-left: 10px;
+        }
+
+        #right:hover,#left:hover{
+            transition: 1s;
+            padding: 35px;
+        }
+
+        button:hover{
+            box-sizing: border-box;
+            transition: 1s;
+            padding: 26px 34px;
+            border: 2px solid white;
+            background-color: chocolate;
+            color: white;
+        }
+        
+    </style>
 </head>
-<body>
-    
+
+<body style="background-image: url(imgs/bg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center center; overflow: hidden;">
+
     <div class="container">
         <div class="navbar">
             <div class="left">
-
+                <img src="imgs/logo.png" alt="" width="100px" height="100px">
+            </div>
+            <div class="center">
+                <a>Home</a>
+                <a>Pages</a>
+                <a>About</a>
+                <a>Menu</a>
+                <a>News</a>
             </div>
             <div class="right">
-
+                <button>ORDER</button>
+                <span>Search</span>
+                <span>Shop</span>
             </div>
+        </div>
+
+        <div class="main">
+            <h1 style="font-size: 40px; margin-top: 100px; width: 600px; color: orange;">Welcome to Our Restaurant The Best Food in the City</h1>
+            <p style="width: 400px; font-size: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, blanditiis!</p>
+            <br><br>
+            <button>ORDER</button>
+            <br><br><br>
+            <button id="left" > < </buttton>
+            <button id="right" > > </button>
         </div>
     </div>
 </body>
+
 </html>
