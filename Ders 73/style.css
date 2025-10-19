@@ -1,0 +1,240 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .menu{
+            background-image: url(imgs/bg.jpg);
+        }
+
+        p,
+        a {
+            transition: 1s;
+            font-size: 32px;
+            margin-right: 20px;
+        }
+
+        a:hover:not(.ourmenuitem) {
+            transition: 1s;
+            text-decoration: underline;
+            font-size: 34px;
+            cursor: pointer;
+        }
+
+        img {
+            transition: 1s;
+            margin-right: 250px;
+        }
+
+        img:hover:not(.imgd img,.pizzamenuimg img) {
+            transition: 1s;
+            width: 130px;
+            height: 130px;
+        }
+
+        .navbar {
+            padding: 10px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            box-shadow: 10px 10px 100px black;
+            align-items: center;
+        }
+
+        .center,
+        .right {
+            padding: 20px;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .right {
+            margin-left: 100px;
+        }
+
+        .main {
+            margin-top: 200px;
+            margin-left: 950px;
+        }
+
+        button {
+            font-weight: bold;
+            transition: 1s;
+            border: 2px solid chocolate;
+            background-color: transparent;
+            color: chocolate;
+            padding: 20px 28px;
+        }
+
+        #left {
+            box-sizing: border-box;
+            border: none;
+            color: orange;
+            background-color: rgba(255, 0, 0, 0.492);
+            padding: 30px;
+            margin-right: 10px;
+        }
+
+        #right {
+            box-sizing: border-box;
+            border: none;
+            color: orange;
+            background-color: rgb(0, 128, 0, 0.492);
+            padding: 30px;
+            margin-left: 10px;
+        }
+
+        #right:hover,
+        #left:hover {
+            transition: 1s;
+            padding: 35px;
+        }
+
+        button:hover {
+            box-sizing: border-box;
+            transition: 1s;
+            padding: 26px 34px;
+            border: 2px solid white;
+            background-color: chocolate;
+            color: white;
+        }
+
+        .dpa {
+            margin-top: 100px;
+            width: 100%;
+            background-color: white;
+            height: 35vh;
+            display: flex;
+            gap: 450px;
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+        }
+
+        .burgerzone {
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            padding: 100px;
+            background-color: rgb(31, 29, 29);
+        }
+
+        .burgerzone p{
+            font-size: 24px;
+        }
+
+        .item .text {
+            color: black;
+            margin-top: 50px;
+        }
+
+        .icon i {
+            color: chocolate;
+            font-size: 120px;
+        }
+
+        .ourmenuitem{
+            text-decoration: none;
+            font-weight: 1000;
+            border: 5px chocolate solid;
+            border-radius: 40px;
+            padding: 10px;
+        }
+
+        .ourmenu,.ourmenu a,.ourmenu h1{
+            text-align: center;
+        }
+
+        .ourmenu h1{
+            margin-bottom: 40px;
+            font-size: 50px;
+        }
+
+        .ourmenu,.pizzamenuitem{
+            background-color: rgba(42, 41, 41, 0.477);
+            border-radius: 40px;
+            padding: 50px;
+        }
+
+        .menu{
+            padding: 50px;
+        }
+
+        .pizzamenu .pizzamenulineone, .pizzamenu .pizzamenulinetwo{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .pizzamenuitem{
+            width: 400px;
+        }
+
+        .pizzamenuimg img{
+            width: 200px;
+            height: 200px;
+        }
+
+        .pizzamenulineone h3, .pizzamenulinetwo h3{
+            color: yellow;
+            font-size: 24px;
+        }
+
+        .commentinp{
+            background-color: rgb(20, 19, 19);
+            height: 20vh;
+            height: fit-content;
+            width: fit-content;
+            padding: 40px;
+        }
+
+        .comment{
+            padding: 40px;
+            height: 50vh;
+            background-color: rgb(37, 37, 37);
+        }
+
+        input{
+            width: 1000px;
+            height: 50px;
+            color: black;
+        }
+
+        .social{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            height: 20vh;
+            background-color: rgb(220, 158, 60);
+            padding: 35px;
+            justify-content: center;
+        }
+
+        .socialitem{
+            background-color: rgb(33, 32, 32);
+            border-radius: 5000px;
+            padding: 30px;
+        }
+
+        table{
+            background-color: rgb(33, 32, 32);
+            width: 100%;
+            text-align: center;
+            padding: 30px;
+        }
+
+        td{
+            padding: 5px;
+        }

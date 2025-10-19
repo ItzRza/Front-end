@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 800px;
+            border: 2px solid black;
+            margin: auto;
+        }
+
+        .main{
+            padding: 30px;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+        }
+
+        li,
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            background-color: gray;
+            color: white;
+            height: 5vh;
+        }
+
+        .twoinone,.twoinonetwo {
+            display: flex;
+            flex-direction: row;
+            column-gap: 20px;
+        }
+
+        .text,
+        .login {
+            background-color: wheat;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 10px;
+            border: 2px solid black;
+            width: fit-content;
+        }
+
+        .login{
+            margin-left: 200px;
+        }
+
+        .text button {
+            padding: 5px;
+            background-color: rgb(185, 24, 24);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Free software</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1>Free Hosting Control Panel</h1>
+
+            <div class="text">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nam voluptate blanditiis
+                    consequatur repellat quasi architecto. Rem cum ipsum fuga commodi repellendus aspernatur quisquam
+                    dolores, quos illo deleniti autem nobis corporis aut vel rerum a, similique aliquid et placeat animi
+                    sed. At dolore laborum blanditiis corporis quos unde nostrum iusto.</span>
+                <br><br>
+                <button>Read More</button>
+            </div>
+
+            <div class="twoinone">
+                <div class="mainfeatures">
+                    <h2>Main Features</h2>
+                    <p>✅Lorem ipsum dolor sit amet.</p>
+                    <p>✅Lorem ipsum dolor sit amet.</p>
+                    <p>✅Lorem ipsum dolor sit amet.</p>
+                    <p>✅Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="login">
+                    <h3>Login</h3>
+                    <label for="">Username</label>
+                    <input type="text">
+                    <br><br>
+                    <label for="">Password</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="twoinonetwo">
+                <div class="latest">
+                    <h2>Latest News</h2>
+                    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, accusamus. Minus qui
+                        inventore quia quasi, nam, eveniet laborum debitis reiciendis omnis ea, totam illo unde atque
+                        soluta tempore expedita modi fuga. Laudantium ratione est voluptas obcaecati expedita
+                        consequatur sit ipsa?"</p>
+                    <br>
+                    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, accusamus. Minus qui
+                        inventore quia quasi, nam, eveniet laborum debitis reiciendis omnis ea, totam illo unde atque
+                        soluta tempore expedita modi fuga. Laudantium ratione est voluptas obcaecati expedita
+                        consequatur sit ipsa?"</p>
+                </div>
+                <div class="test">
+                    <h2>Test</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis officia illo magni nostrum suscipit facilis libero modi cumque fugit consequatur.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
